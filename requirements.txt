@@ -1,0 +1,10 @@
+langgraph
+langsmith
+langchain-community
+langchain-core
+langchain-openai
+langchain-anthropic
+notebook
+espn_api
+praw
+python-dotenv
