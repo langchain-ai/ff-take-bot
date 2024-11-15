@@ -440,5 +440,5 @@ overall_builder.add_conditional_edges("load_context", initiate_all_takes, ["gene
 overall_builder.add_edge("generate_takes", "write_to_slack")
 overall_builder.add_edge("write_to_slack", END)
 
-# Compile
-graph = overall_builder.compile(interrupt_before=['write_to_slack'])
+# Compile without interruption for cron job writing to Slack 
+graph = overall_builder.compile()

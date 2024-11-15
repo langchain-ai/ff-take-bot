@@ -77,4 +77,9 @@ $ ./populate_env.sh
 
 Load this folder in the Studio app to launch it.
 
+## Hosted Deployment for Scheduling
+
+We deployed this to [LangGraph Cloud](https://langchain-ai.github.io/langgraph/concepts/langgraph_cloud/), a managed service for running LangGraph graphs.
+
+This makes it easy to set up a [scheduled job](https://langchain-ai.github.io/langgraph/cloud/how-tos/cron_jobs/) to run the graph on a regular basis (e.g., daily) and publish the results to Slack.
 
