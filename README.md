@@ -1,10 +1,16 @@
 # Fantasy Football Take Bot
 
-[Ambient](https://blog.langchain.dev/ux-for-agents-part-2-ambient/) agents run "in the background" and often provide useful reports or summarization of information (e.g., from a newsfeed, a Slack channel, email, etc) on a regular schedule. This is an ambient agent designed for Fantasy Football, which we use internally for our own league at LangChain. It uses LangGraph to build an agent that:
+[Ambient](https://blog.langchain.dev/ux-for-agents-part-2-ambient/) agents run "in the background" and often provide useful reports or summarization of information (e.g., from a newsfeed, a Slack channel, email, etc) on a regular schedule. 
+
+This is an ambient agent designed for Fantasy Football, which we use internally for our own league at LangChain. 
+
+It uses LangGraph to build an agent that:
 
 1. Scrapes recent posts from the [Reddit `fantasyfootball` sub](https://www.reddit.com/r/fantasyfootball/)
-2. Generates short-summaries (or "takes") for each Fantasy team manager if any of their players are mentioned in the posts
+2. Generates short-summaries (or "takes") for each Fantasy team manager based on their roster
 3. Publishes the takes to a Slack channel
+
+![Screenshot 2024-11-14 at 4 21 51 PM](https://github.com/user-attachments/assets/4fcf879a-74a0-45ed-b1e5-fe3dfb8bca02)
 
 ## Data Sources 
 
@@ -69,5 +75,6 @@ Generate your `.env` file with the necessary credentials:
 $ ./populate_env.sh
 ```
 
+Load this folder in the Studio app to launch it.
 
 
