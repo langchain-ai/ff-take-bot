@@ -90,12 +90,14 @@ $ ./populate_env.sh
 
 Load this folder in the Studio app to launch it.
 
+Simply run `submit` with default values (`[]`) passed to the input state; the app will populate these as it runs.
+
+![Screenshot 2024-11-18 at 2 14 57 PM](https://github.com/user-attachments/assets/46d4e1b5-cab8-438e-ba3b-35c0b5362cee)
+
 ## Hosted Deployment
 
-We deployed our app to [LangGraph Cloud](https://langchain-ai.github.io/langgraph/concepts/langgraph_cloud/), a [managed service for running LangGraph graphs](https://langchain-ai.github.io/langgraph/concepts/deployment_options/#cloud-saas).
-
+We deployed our app to [LangGraph Cloud](https://langchain-ai.github.io/langgraph/concepts/langgraph_cloud/), a [managed service for running LangGraph graphs](https://langchain-ai.github.io/langgraph/concepts/deployment_options/#cloud-saas). 
 This makes it easy to set up a [scheduled job](https://langchain-ai.github.io/langgraph/cloud/how-tos/cron_jobs/) to run the graph on a regular basis (e.g., daily) and publish the results to Slack.
-
 As shown in the notebook, you can use the LangGraph Python SDK to create a scheduled job: 
 
 ```
