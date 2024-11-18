@@ -92,7 +92,7 @@ Load this folder in the Studio app to launch it.
 
 Simply run `submit` with default values (`[]`) passed to the input state; the app will populate these as it runs.
 
-![Screenshot 2024-11-18 at 2 14 57 PM](https://github.com/user-attachments/assets/46d4e1b5-cab8-438e-ba3b-35c0b5362cee)
+![Screenshot 2024-11-18 at 2 19 05 PM](https://github.com/user-attachments/assets/9afc6e27-e0ee-4276-8b51-3fbb3bcc5d60)
 
 ## Hosted Deployment
 
